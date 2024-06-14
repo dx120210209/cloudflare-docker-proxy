@@ -14,6 +14,7 @@ const routes = {
   "k8s.whb.plus": "https://registry.k8s.io",
   "ghcr.whb.plus": "https://ghcr.io",
   "cloudsmith.whb.plus": "https://docker.cloudsmith.io",
+  
 
   // staging
   "docker-staging.libcuda.so": dockerHub,
