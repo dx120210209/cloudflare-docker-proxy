@@ -14,6 +14,7 @@ jobs:
     name: Build & Deploy
     steps:
       - uses: actions/checkout@v4
+      - run: cat src/index.js
       - name: Publish
         uses: cloudflare/wrangler-action@v3
         with:
