@@ -22,6 +22,10 @@ routes = [
   { pattern = "cloudsmith.whb.plus", custom_domain = true },
 ]
 
+[observability]
+enabled = true
+head_sampling_rate = 1
+
 [env.production.vars]
 MODE = "production"
 TARGET_UPSTREAM = ""
