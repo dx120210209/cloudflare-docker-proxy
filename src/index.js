@@ -16,7 +16,7 @@ const routes = {
   "cloudsmith.whb.plus": "https://docker.cloudsmith.io",
   
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker-staging.whb.plus": dockerHub,
 };
 
 function routeByHosts(host) {
